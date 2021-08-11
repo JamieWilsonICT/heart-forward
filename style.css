@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 /* body {
@@ -14,11 +14,11 @@ html {
 
 .nav-bar {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 10px 400px 10px 400px;
     background-color: rgb(79, 55, 105);
+    min-height: 18vh;
 }
 
 .nav-bar ul {
@@ -32,8 +32,10 @@ html {
 
 .nav-bar li {
   padding: 1em;
+  text-decoration: none;
 }
 
+/* 
 main {
   background-color:rgb(245, 245, 245);
 }
@@ -176,4 +178,4 @@ main {
 Footer {
   background-color: rgb(51, 51, 51);
   color: white;
-}
+} */
