@@ -27,8 +27,7 @@ nav {
 }
 
 .logo img{
-  image-rendering: -webkit-optimize-contrast;
-  transform: translateZ(0);
+  image-rendering: pixelated;
 }
 
 .nav-links {
