@@ -28,7 +28,7 @@ nav {
 
 .nav-links {
   display: flex;
-  justify-content: space-around ;
+  justify-content: space-around;
   width: 35%;
   list-style: none;
 }
@@ -37,7 +37,6 @@ nav {
 .nav-links a {
   text-decoration: none;
   color: white;
-  letter-spacing: 3px;
   font-weight: bold;
   font-size: 1.3em;
 } 
@@ -45,6 +44,7 @@ nav {
 .burger {
   display: none;
 }
+
 .burger div{
   width: 25px;
   height: 2px;
@@ -52,6 +52,20 @@ nav {
   margin: 5px;
 }
 
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+    list-style: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    display: none;
+  }
+}
 
 /* .nav-bar ul {
     display: flex;
