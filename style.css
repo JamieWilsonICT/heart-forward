@@ -12,16 +12,15 @@
   font-size: 62.5%;
 } */
 
+/* NAVIGATION */
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-
   background-color: rgb(79, 55, 105);
   font-family: Arial, Helvetica, sans-serif;
-  /* font-size: 2.1em;
-    font-weight: bold; */
+  padding: 5px 0 5px 0;
 }
 
 .logo img {
@@ -58,6 +57,10 @@ nav {
   height: 2px;
   background-color: white;
   margin: 5px;
+}
+
+.nav-active {
+  transform: translateX(0%);
 }
 
 @media screen and (max-width: 1750px) {
@@ -103,7 +106,6 @@ nav {
     align-items: center;
     width: 50%;
     transform: translateX(100%);
-    /* transition: transform 0.5s ease-in; */
   }
 
   .nav-links li {
@@ -115,10 +117,7 @@ nav {
   }
 }
 
-.nav-active {
-  transform: translateX(0%);
-}
-
+/* MAIN */
 main {
   background-color: rgb(245, 245, 245);
 }
