@@ -4,13 +4,9 @@
   padding: 0px;
 }
 
-/* body {
-  background-color: rgb(34, 34, 34);
-} */
-
-/* html {
+html {
   font-size: 62.5%;
-} */
+}
 
 /* NAVIGATION */
 nav {
@@ -44,7 +40,7 @@ nav {
   text-decoration: none;
   color: white;
   font-weight: bold;
-  font-size: 1.3em;
+  font-size: 2em;
 }
 
 .burger {
@@ -122,27 +118,27 @@ main {
   background-color: rgb(245, 245, 245);
 }
 
-.landing {
+.landing-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 75px 400px 0 400px;
 }
 
-.landing-text > h1 {
+.landing-content > h1 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 3rem;
+  font-size: 4rem;
   padding: 100px 0 0 0;
 }
 
-.landing-text > p {
+.landing-content > p {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.6rem;
+  font-size: 2em;
   line-height: 2em;
   padding: 20px 0 0 0;
 }
 
-.landing-text button {
+.landing-content button {
   font-size: 1.6em;
   text-decoration: none;
   border: none;
@@ -153,14 +149,55 @@ main {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* 
+@media screen and (max-width: 1700px) {
+  .landing-container {
+    flex-direction: column-reverse;
+  }
+
+  .landing-imgBx {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .landing-container {
+    flex-direction: column-reverse;
+    padding: 0 0 0 0;
+  }
+
+  .landing-content {
+    flex: display;
+    justify-content: space-around;
+    padding: 0 10px 0 10px;
+  }
+
+  .landing-content > h1 {
+    padding: 10px 0 0 0;
+  }
+
+  .landing-content > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5em;
+    padding: 20px 0 0 0;
+  }
+
+  .landing-imgBx {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0 0 0;
+  }
+}
+
+/* SECTION */
 .cards {
   display: flex;
   justify-content: center;
   margin: -25px 300px 0 300px;
 }
-
-
 
 .cards > div {
   height: 350px;
@@ -241,7 +278,7 @@ main {
   font-size: 1.6em;
   text-decoration: none;
   border: none;
-  background-color: #FC759E;
+  background-color: #fc759e;
   padding: 10px 30px 10px 30px;
   margin: 40px 0 0 0;
   border-radius: 25px;
@@ -262,4 +299,4 @@ main {
 Footer {
   background-color: rgb(51, 51, 51);
   color: white;
-} */
+}
