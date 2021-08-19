@@ -122,11 +122,11 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 50px 400px 0 400px;
+  padding: 70px 400px 0 400px;
 }
 
 .landing-content {
-  padding: 50px 50px 0 0;
+  padding: 20px 50px 0 0;
 }
 
 /* .landing-content span {
