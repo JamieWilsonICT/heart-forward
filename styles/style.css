@@ -253,9 +253,14 @@ main {
   padding: 0 400px 100px 400px;
 }
 
+.content-1 img {
+  margin: 0 0 0px 0;
+}
+
 .content-1-text {
   font-family: "poppins";
-  padding: 0 0 0 60px;
+  padding: 0 0 0px 60px;
+  margin: 50px 0 0 0;
 }
 
 .content-1-text h2 {
