@@ -445,23 +445,60 @@ main {
   grid-template-columns: 1fr 1fr;
 }
 
-.get-in-touch-form {
+.get-in-touch {
   font-family: "Poppins";
   padding: 50px 0 0 150px;
 }
 
-.get-in-touch-form h1 {
+.get-in-touch h1 {
   font-size: 4.5em;
 }
 
-.get-in-touch-form p {
+.get-in-touch p {
   font-size: 1.6em;
   line-height: 2em;
-  padding: 0 0 30px 0;
 }
 
 .contact-form {
   font-size: 2em;
 }
 
+.contact-form input {
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+  resize: none;
+}
 
+.contact-form #message {
+  width: 500px;
+  height: 100px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+  resize: none;
+}
+
+label {
+  display: inline-block;
+  padding: 15px 0 0 0;
+}
+
+input[type="submit"] {
+  width: 150px;
+  background-color: #fc759e;
+  color: white;
+  margin: 10px 0 0 0;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "poppins";
+  font-size: 1em;
+}
+
+input[type="submit"]:hover {
+  background-color: #95e1d4;
+}
