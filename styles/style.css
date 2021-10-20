@@ -469,6 +469,9 @@ main {
   border-radius: 4px;
   background-color: #ffffff;
   resize: none;
+  font-family: "poppins";
+  padding: 0 0 0 5px;
+  font-size: 0.8em;
 }
 
 .contact-form #message {
