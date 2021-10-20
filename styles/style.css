@@ -371,12 +371,12 @@ main {
   font-family: "poppins";
 }
 
-/* FAQ */
+/* FAQ Subpage*/
 .faq-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin: 1em 450px 1em; 450px;
+  margin: 1em 450px 1em 450px;
   border-style: solid;
   border-width: 0.1em;
   border-color: rgb(199, 199, 199);
@@ -389,7 +389,6 @@ main {
   font-family: poppins;
   padding: 50px 0 0 0;
 }
-
 
 .faq-collapsible {
   background-color: rgb(255, 255, 255);
@@ -439,3 +438,30 @@ main {
   justify-content: center;
   padding: 10px 0 50px 0;
 }
+
+/* CONTACT Subpage*/
+.get-in-touch-body-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.get-in-touch-form {
+  font-family: "Poppins";
+  padding: 50px 0 0 150px;
+}
+
+.get-in-touch-form h1 {
+  font-size: 4.5em;
+}
+
+.get-in-touch-form p {
+  font-size: 1.6em;
+  line-height: 2em;
+  padding: 0 0 30px 0;
+}
+
+.contact-form {
+  font-size: 2em;
+}
+
+
