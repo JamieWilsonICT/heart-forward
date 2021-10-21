@@ -371,6 +371,31 @@ main {
   font-family: "poppins";
 }
 
+/* Services */
+.services-heading {
+  font-family: "poppins";
+  font-size: 2.5em;
+  text-align: center;
+  padding: 50px 0 0 0;
+}
+.services-wrapper {
+  display: flex;
+  flex-direction: row;
+  font-family: "poppins";
+  padding: 0 150px;
+  flex-wrap: wrap;
+}
+
+.services-wrapper h2 {
+  font-size: 3em;
+  padding: 30px 0 0 0;
+}
+
+.services-wrapper p {
+  font-size: 1.6em;
+  line-height: 1.6em;
+}
+
 /* FAQ Subpage*/
 .faq-wrapper {
   display: flex;
