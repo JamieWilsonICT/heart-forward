@@ -384,60 +384,93 @@ main {
   padding: 0 50px 0 50px;
 }
 
+
+.services-container1 img {
+  display: block;
+}
+
+.services-container2 img {
+  display: block;
+}
+
+.services-container3 img {
+  display: block;
+}
+
+.services-container4 img {
+  display: block;
+}
+
 .services-container1 {
-  padding: 50px;
+  padding: 0px 50px 50px 50px;
   font-family: "poppins";
 }
 
 .services-container1 h2 {
   font-size: 3em;
+  background-color: white;
+  padding: 10px 20px 10px 20px;
 }
 
 .services-container1 p {
-  font-size: 1.6em;
+  font-size: 1.9em;
   line-height: 1.6em;
+  background-color: white;
+  padding: 0 20px 30px 20px;
 }
 
 .services-container2 {
-  padding: 50px;
+  padding: 0px 50px 50px 50px;
   font-family: "poppins";
 }
 
 .services-container2 h2 {
   font-size: 3em;
+  background-color: white;
+  padding: 10px 20px 10px 20px;
 }
 
 .services-container2 p {
-  font-size: 1.6em;
+  font-size: 1.9em;
   line-height: 1.6em;
+  background-color: white;
+  padding: 0 20px 30px 20px;
 }
 
 .services-container3 {
-  padding: 50px;
+  padding: 0px 50px 50px 50px;
   font-family: "poppins";
 }
 
 .services-container3 h2 {
   font-size: 3em;
+  background-color: white;
+  padding: 10px 20px 10px 20px;
 }
 
 .services-container3 p {
-  font-size: 1.6em;
+  font-size: 1.9em;
   line-height: 1.6em;
+  background-color: white;
+  padding: 0 20px 30px 20px;
 }
 
 .services-container4 {
-  padding: 50px;
+  padding: 0px 50px 50px 50px;
   font-family: "poppins";
 }
 
 .services-container4 h2 {
   font-size: 3em;
+  background-color: white;
+  padding: 10px 20px 10px 20px;
 }
 
 .services-container4 p {
-  font-size: 1.6em;
+  font-size: 1.9em;
   line-height: 1.6em;
+  background-color: white;
+  padding: 0 20px 30px 20px;
 }
 
 /* FAQ Subpage*/
