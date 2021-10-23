@@ -32,7 +32,7 @@ nav {
 .nav-links {
   display: flex;
   justify-content: space-around;
-  width: 30%;
+  width: 40%;
   list-style: none;
 }
 
@@ -40,7 +40,7 @@ nav {
   text-decoration: none;
   color: white;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 .burger {
@@ -395,12 +395,67 @@ main {
   font-family: "poppins";
 }
 
+/* PLAY THERAPY - Subpage */
+.play-therapy-heading {
+  font-family: "poppins";
+  font-size: 2.5em;
+  padding: 30px 0 0 0;
+  text-align: center;
+}
+
+.video {
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+
+.playtherapy-flex1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 80px 100px 30px 100px;
+}
+
+.playtherapy-flex2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 80px 100px 30px 100px;
+}
+
+.pt-container1 {
+  font-family: "poppins";
+  padding: 0 50px 0 50px;
+}
+
+.pt-container1 h2 {
+  font-size: 3em;
+}
+
+.pt-container1 p {
+  font-size: 2em;
+  line-height: 1.6em;
+}
+
+.pt-container2 {
+  font-family: "poppins";
+  padding: 0 50px 0 50px;
+}
+
+.pt-container2 h2 {
+  font-size: 3em;
+}
+
+.pt-container2 p {
+  font-size: 2em;
+  line-height: 1.6em;
+}
+
 /* Services */
 .services-heading {
   font-family: "poppins";
   font-size: 2.5em;
   text-align: center;
-  padding: 50px 0 0 0;
+  padding: 30px 0 0 0;
 }
 .services-wrapper {
   display: grid;
