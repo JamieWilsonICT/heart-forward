@@ -122,11 +122,11 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 70px 400px 0 400px;
+  padding: 70px 150px 100px 150px;
 }
 
 .landing-content {
-  padding: 20px 50px 0 0;
+  padding: 20px 0px 0 0;
 }
 
 /* .landing-content span {
@@ -135,35 +135,63 @@ main {
 
 .landing-content > h1 {
   font-family: "poppins";
-  font-size: 5em;
+  font-size: 7em;
+  padding: 10px 0 0 0;
 }
 
 .landing-content > p {
   font-family: "poppins";
-  font-size: 2em;
-  line-height: 2em;
-  padding: 20px 0 0 0;
+  font-size: 3em;
+  line-height: 1.6em;
+  padding: 20px 30px 0 0;
 }
 
-.landing-content button {
+.button1 button {
   font-size: 1.6em;
   text-decoration: none;
-  border: none;
-  background-color: #95e1d4;
+  border: solid;
+  background-color: rgba(252, 117, 158, 0.59);
   padding: 10px 30px 10px 30px;
-  margin: 40px 0 0 0;
+  margin: 40px 10px 0 0;
   border-radius: 25px;
   font-family: "poppins";
+}
+
+.button2 button {
+  font-size: 1.6em;
+  text-decoration: none;
+  border: solid;
+  background-color: rgba(149, 225, 212, 0.59);
+  padding: 10px 30px 10px 30px;
+  margin: 40px 10px 0 0;
+  border-radius: 25px;
+  font-family: "poppins";
+}
+
+
+.landing-content button {
 }
 
 .button-1 p {
   font-family: "poppins";
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 2em;
 }
 
 .button-1:hover {
-  opacity: 59%;
+  box-shadow: 2px 12px 15px #999;
+  transform: translateY(-5px);
+}
+
+.button-2 p {
+  font-family: "poppins";
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.button-2:hover {
+  box-shadow: 2px 12px 15px #999;
+  transform: translateY(-5px);
 }
 
 @media screen and (max-width: 1700px) {
@@ -384,7 +412,6 @@ main {
   padding: 0 50px 0 50px;
 }
 
-
 .services-container1 img {
   display: block;
 }
@@ -404,6 +431,27 @@ main {
 .services-container1 {
   padding: 0px 50px 50px 50px;
   font-family: "poppins";
+}
+
+/* SERVICES - Card Hover */
+.services-container1:hover {
+  box-shadow: 2px 12px 15px #999;
+  transform: translateY(-15px);
+}
+
+.services-container2:hover {
+  box-shadow: 2px 12px 15px #999;
+  transform: translateY(-15px);
+}
+
+.services-container3:hover {
+  box-shadow: 2px 12px 15px #999;
+  transform: translateY(-15px);
+}
+
+.services-container4:hover {
+  box-shadow: 2px 12px 15px #999;
+  transform: translateY(-15px);
 }
 
 .services-container1 h2 {
