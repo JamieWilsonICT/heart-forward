@@ -140,6 +140,10 @@ main {
   padding: 10px 0 0 0;
 }
 
+.space {
+  padding: 50px 0 0 0;
+}
+
 .landing-content > p {
   font-family: "poppins";
   font-size: 3em;
@@ -155,7 +159,6 @@ main {
   padding: 10px 30px 10px 30px;
   margin: 40px 10px 0 0;
   border-radius: 25px;
-  font-family: "poppins";
 }
 
 .button1 a {
@@ -178,17 +181,15 @@ main {
   padding: 10px 30px 10px 30px;
   margin: 40px 10px 0 0;
   border-radius: 25px;
-  font-family: "poppins";
 }
 
 .button-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .button-1 p {
-  font-family: "poppins";
+  font-family: 'Rubik', sans-serif;
   font-weight: bold;
   font-size: 2em;
 }
@@ -199,7 +200,7 @@ main {
 }
 
 .button-2 p {
-  font-family: "poppins";
+  font-family: 'Rubik', sans-serif;
   font-weight: bold;
   font-size: 2em;
 }
@@ -718,10 +719,11 @@ input[type="submit"] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  font-family: "poppins";
-  font-size: 1em;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.4em;
 }
 
 input[type="submit"]:hover {
   background-color: #95e1d4;
+  
 }
