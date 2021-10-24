@@ -395,6 +395,10 @@ main {
   font-family: "poppins";
 }
 
+
+
+
+
 /* PLAY THERAPY - Subpage */
 .play-therapy-heading {
   font-family: "poppins";
@@ -406,6 +410,12 @@ main {
 .video {
   text-align: center;
   padding: 20px 0 0 0;
+}
+
+.video p {
+  font-family: "poppins";
+  font-size: 1.4em;
+  font-style: italic;
 }
 
 .playtherapy-flex1 {
@@ -450,6 +460,11 @@ main {
   line-height: 1.6em;
 }
 
+
+
+
+
+
 /* Services */
 .services-heading {
   font-family: "poppins";
@@ -479,12 +494,8 @@ main {
   display: block;
 }
 
-.services-container1 {
-  padding: 0px 50px 50px 50px;
-  font-family: "poppins";
-}
 
-/* SERVICES - Card Hover */
+/* SERVICES - Card Hover 
 .services-container1:hover {
   box-shadow: 2px 12px 15px #999;
   transform: translateY(-15px);
@@ -504,6 +515,14 @@ main {
   box-shadow: 2px 12px 15px #999;
   transform: translateY(-15px);
 }
+
+*/
+
+.services-container1 {
+  padding: 0px 50px 50px 50px;
+  font-family: "poppins";
+}
+
 
 .services-container1 h2 {
   font-size: 3em;
